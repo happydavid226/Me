@@ -37,3 +37,4 @@ themeToggle?.addEventListener('click', () => {
     localStorage.setItem('theme', isLight ? 'light' : 'dark');
     setThemeIcon(isLight);
 });
+
