@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy David | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero" id="home">
+        <nav class="nav">
+            <span class="logo">HD</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="ghost-btn" aria-label="Toggle theme">🌙</button>
+        </nav>
+
+        <div class="hero-layout">
+            <div class="hero-content">
+                <p class="eyebrow">Software Engineer Student · Rwanda Coding Academy</p>
+                <h1>Hi, I’m Happy David.</h1>
+                <p class="lead">
+                    I craft resilient software with Java &amp; C/C++, build expressive web experiences with PHP,
+                    and love bridging low-level performance with delightful user interfaces.
+                </p>
+                <div class="cta-row">
+                    <a class="primary-btn" href="#projects">View Projects</a>
+                    <a class="ghost-btn" href="#contact">Let’s Collaborate</a>
+                </div>
+            </div>
+            <figure class="portrait">
+                <img src="Myphoto.png" alt="Portrait of Happy David">
+            </figure>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-grid about-grid" id="about">
+            <article class="card highlight">
+                <h2>About Me</h2>
+                <p>
+                    I’m a curious builder currently sharpening my craft at Rwanda Coding Academy.
+                    My toolkit spans Java, C/C++, PHP, and modern web tech—perfect for tackling
+                    everything from systems-level challenges to polished interfaces.
+                </p>
+                <p>
+                    I’m also an active competitive programmer, recently representing Rwanda at
+                    IOI&nbsp;2025. You can explore my performance recap
+                    <a class="inline-link" href="https://stats.ioinformatics.org/people/8751" target="_blank"
+                        rel="noreferrer">here</a>.
+                </p>
+                <p>
+                    Beyond code, I enjoy mentoring peers, reading about software architecture,
+                    and iterating on side projects that solve local problems.
+                </p>
+            </article>
+            <article class="card stats">
+                <div>
+                    <span class="label">Focus</span>
+                    <p>Full-stack &amp; Systems</p>
+                </div>
+                <div>
+                    <span class="label">Location</span>
+                    <p>Kigali, Rwanda</p>
+                </div>
+                <div>
+                    <span class="label">Mindset</span>
+                    <p>Learn · Build · Share</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="skills">
+            <div class="section-header">
+                <h2>Core Skills</h2>
+                <p>Technologies I use to design, build, and ship dependable solutions.</p>
+            </div>
+            <ul class="pill-list">
+                <li>Java</li>
+                <li>C / C++</li>
+                <li>PHP</li>
+                <li>RESTful APIs</li>
+                <li>MySQL &amp; PostgreSQL</li>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Systems Thinking</li>
+                <li>Git &amp; CI basics</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <h2>Highlighted Projects</h2>
+                <p>A few snapshots of how I turn ideas into working software.</p>
+            </div>
+            <div class="card-grid projects-grid">
+                <article class="card project">
+                    <span class="tag">PHP · CSS</span>
+                    <h3>Blessing Nursery School</h3>
+                    <p>
+                        A fully themed school website with reusable PHP includes, public pages,
+                        and custom styling that shares updates with parents and the community.
+                    </p>
+                    <a class="ghost-btn project-link" href="https://github.com/happydavid226/Blessing-Nursery-School"
+                        target="_blank" rel="noreferrer">View Repository</a>
+                </article>
+                <article class="card project">
+                    <span class="tag">Java · Swing</span>
+                    <h3>Text Editor</h3>
+                    <p>
+                        Lightweight desktop editor built in Java featuring custom menus, file I/O,
+                        and an extendable structure for experimenting with IDE concepts.
+                    </p>
+                    <a class="ghost-btn project-link" href="https://github.com/happydavid226/TextEditorProjectInJava"
+                        target="_blank" rel="noreferrer">View Repository</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="card contact-card contact-links-card">
+            <div>
+                <h2>Contact Me</h2>
+                <p>
+                    I love meeting other builders, mentors, and teams. Reach out through any of the channels below and
+                    I’ll respond quickly.
+                </p>
+            </div>
+            <ul class="contact-links">
+                <li>
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor"
+                                stroke-width="1.5" />
+                            <path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </span>
+                    <div>
+                        <span class="contact-label">Email</span>
+                        <a href="mailto:happydavid226@gmail.com">happydavid226@gmail.com</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <rect x="3" y="3" width="18" height="18" rx="4" ry="4" fill="none" stroke="currentColor"
+                                stroke-width="1.5" />
+                            <path d="M8 12h8" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M8 8h8" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M8 16h4" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </span>
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/happy-david-24666132b/" target="_blank"
+                            rel="noreferrer">linkedin.com/in/happy-david-24666132b</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <rect x="4" y="4" width="16" height="16" rx="4" ry="4" fill="none" stroke="currentColor"
+                                stroke-width="1.5" />
+                            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5" />
+                            <circle cx="16.5" cy="7.5" r="0.9" fill="currentColor" />
+                        </svg>
+                    </span>
+                    <div>
+                        <span class="contact-label">Instagram</span>
+                        <a href="https://www.instagram.com/happydavid226/" target="_blank"
+                            rel="noreferrer">@happydavid226</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <path d="M4 18h3l2-6 2 6h3l3-12" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linejoin="round" />
+                            <circle cx="19" cy="6" r="1" fill="currentColor" />
+                        </svg>
+                    </span>
+                    <div>
+                        <span class="contact-label">Codeforces</span>
+                        <a href="https://codeforces.com/profile/HappyDavid" target="_blank"
+                            rel="noreferrer">codeforces.com/profile/HappyDavid</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <path d="M5 17l7-10 7 10" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linejoin="round" />
+                            <circle cx="12" cy="14" r="1.2" fill="currentColor" />
+                        </svg>
+                    </span>
+                    <div>
+                        <span class="contact-label">AtCoder</span>
+                        <a href="https://atcoder.jp/users/HappyDavid" target="_blank"
+                            rel="noreferrer">atcoder.jp/users/HappyDavid</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Happy David · Crafted with curiosity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
