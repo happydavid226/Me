@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: happy-david-portfolio
+    env: static
+    staticPublishPath: public
+    buildCommand: ""
+
