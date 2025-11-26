@@ -266,16 +266,35 @@ section {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: rgba(56, 189, 248, 0.15);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: var(--accent);
+    color: #fff;
 }
 
 .contact-icon svg {
     width: 24px;
     height: 24px;
+}
+
+.contact-icon--email {
+    background: #334155;
+}
+
+.contact-icon--linkedin {
+    background: #0a66c2;
+}
+
+.contact-icon--instagram {
+    background: radial-gradient(circle at 30% 30%, #feda75, #d62976 45%, #962fbf 70%, #4f5bd5);
+}
+
+.contact-icon--codeforces {
+    background: linear-gradient(135deg, #f44336, #3f51b5);
+}
+
+.contact-icon--atcoder {
+    background: linear-gradient(135deg, #0ea5e9, #14b8a6);
 }
 
 .project-link {
